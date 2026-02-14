@@ -28,15 +28,22 @@ import {
   type Unsubscribe,
 } from 'firebase/firestore';
 
+
+// ==================== ATENÇAO, ADICIONAR SUAS CREDENCIAIS  ====================
 const firebaseConfig = {
-  apiKey: "AIzaSyA-7HOp-Ycvyf3b_03ev__8aJbWSQZY",
-  authDomain: "connectfamilia-312dc.firebaseapp.com",
+  apiKey: "xxxxxx-xxxx-xxxxxxx",
+  authDomain: "seurepositori-312dc.firebaseapp.com",
   projectId: "connectfamilia-312dc",
-  storageBucket: "connectfamilia-312dc.appspot.com",
-  messagingSenderId: "7978138649",
-  appId: "1:7978138649:web:1aa4abd97661f8d81e8",
-  measurementId: "GKNZZQ"
+  storageBucket: "XXXXX-312dc.appspot.com",
+  messagingSenderId: "79XXXXX8649",
+  appId: "1:797813XXXXXXXXX1f8d81e8",
+  measurementId: "GXXXXXXQ"
 };
+// ==================== ATENÇAO, ADICIONAR SUAS CREDENCIAIS  ====================
+
+
+
+
 
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
